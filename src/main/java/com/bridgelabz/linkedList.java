@@ -37,11 +37,21 @@ public class linkedList {
         }
         System.out.println("NUll");
     }
+    public void insertElement(int data,int poss){
+        Node newNode= new Node( data);
+        Node currNode= head;
+        for (int i=0; i<(poss-1); i++){
+            currNode=currNode.next;
+        }
+        newNode.next=currNode.next;
+        currNode.next=newNode;
+    }
 
         public static void main (String[]args){
             linkedList linkedList = new linkedList();
             linkedList.addFirst(60);
             linkedList.addFirst(17);
+            linkedList.insertElement(30,2);
             linkedList.printlist();
         }
     }
