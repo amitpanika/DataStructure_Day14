@@ -46,12 +46,21 @@ public class linkedList {
         newNode.next=currNode.next;
         currNode.next=newNode;
     }
+    public void deleteElement(int data){
+        if ( head == null){
+            System.out.println("empty");
+        }
+           head = head.next;
+        }
+
 
         public static void main (String[]args){
             linkedList linkedList = new linkedList();
             linkedList.addFirst(60);
             linkedList.addFirst(17);
             linkedList.insertElement(30,2);
+            linkedList.printlist();
+            linkedList.deleteElement(30);
             linkedList.printlist();
         }
     }
