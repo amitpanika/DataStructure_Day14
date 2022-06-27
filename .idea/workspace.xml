@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c6bc2d8d-1db5-4872-99de-b4428bad656d" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/stackclasses.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/bridgelabz/linkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bridgelabz/linkedList.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,7 +23,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="insertAtPosition" />
+        <entry key="$PROJECT_DIR$" value="DeleteLast" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -43,10 +43,10 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.linkedList">
+  <component name="RunManager" selected="Application.stackclasses">
     <configuration name="SimpleLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.bridgelabz.SimpleLinkedList" />
-      <module name="DataStructure" />
+      <module name="Day_14DataStructure" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.bridgelabz.*" />
@@ -59,7 +59,7 @@
     </configuration>
     <configuration name="linkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.bridgelabz.linkedList" />
-      <module name="DataStructure" />
+      <module name="Day_14DataStructure" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.bridgelabz.*" />
@@ -70,8 +70,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="stackclasses" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="stackclasses" />
+      <module name="Day_14DataStructure" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.stackclasses" />
         <item itemvalue="Application.linkedList" />
         <item itemvalue="Application.SimpleLinkedList" />
       </list>
@@ -114,13 +122,21 @@
       <option name="project" value="LOCAL" />
       <updated>1656066261409</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="deleteLastElement">
+      <created>1656234812187</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1656234812187</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="addLast" />
     <MESSAGE value="insertAtSpecificPosition" />
     <MESSAGE value="deleteElement" />
-    <option name="LAST_COMMIT_MESSAGE" value="deleteElement" />
+    <MESSAGE value="deleteLastElement" />
+    <option name="LAST_COMMIT_MESSAGE" value="deleteLastElement" />
   </component>
 </project>
