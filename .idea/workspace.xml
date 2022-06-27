@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c6bc2d8d-1db5-4872-99de-b4428bad656d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/stackclasses.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="c6bc2d8d-1db5-4872-99de-b4428bad656d" name="Changes" comment="pop_method(stock)" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -23,7 +20,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="DeleteLast" />
+        <entry key="$PROJECT_DIR$" value="stack" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -129,7 +126,14 @@
       <option name="project" value="LOCAL" />
       <updated>1656234812187</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="this_push_method(stack)">
+      <created>1656343805165</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1656343805165</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -137,6 +141,7 @@
     <MESSAGE value="insertAtSpecificPosition" />
     <MESSAGE value="deleteElement" />
     <MESSAGE value="deleteLastElement" />
-    <option name="LAST_COMMIT_MESSAGE" value="deleteLastElement" />
+    <MESSAGE value="this_push_method(stack)" />
+    <option name="LAST_COMMIT_MESSAGE" value="this_push_method(stack)" />
   </component>
 </project>
